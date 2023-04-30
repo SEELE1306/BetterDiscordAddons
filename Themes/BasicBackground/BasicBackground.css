@@ -295,6 +295,7 @@ body::after {
 .withLayer-2VVmpp {
 	z-index: -1;
 }
+
 /* ~~~~		6.		CHAT							~~~~ */
 
 .chat-2ZfjoI.threadSidebarOpen-1LSXvU {						/* chat					threadsidebar open					*/
@@ -1027,6 +1028,65 @@ body::after {
 #app-mount .wrapper-1FP9YQ {								/* attachment			videowrapper						*/
 	background-color: rgba(var(--transparencycolor), .3);
 }
+
+/* ====		6.2.3.	NITROGIFT						==== */
+
+#app-mount .tile-2mmK5T {									/* gift					container							*/
+	background-color: rgba(var(--transparencycolor), .2);
+	box-shadow: 0 0 0 rgba(var(--transparencycolor), .15);
+}
+#app-mount .tile-2mmK5T:hover {
+	background-color: rgba(var(--transparencycolor), .4);
+}
+#app-mount .title-oJa_A6 {									/* gift					title								*/
+	color: var(--header-primary);
+}
+#app-mount .description-X8_53U {							/* gift					description							*/
+	color: var(--header-primary);
+}
+#app-mount .tagline-3DhQWg {								/* gift					tagline								*/
+	color: var(--header-secondary);
+}
+
+/* ====		6.2.4.	INVITE							==== */
+
+#app-mount .wrapper-1HIH0j {								/* invite				container							*/
+	background-color: rgba(var(--transparencycolor), .3);
+	border-color: rgba(var(--transparencycolor), .1);
+}
+#app-mount .guildIconImage-74OdmM {							/* invite				icon								*/
+	background-color: rgba(var(--transparencycolor), .3);
+}
+#app-mount .guildName-3G4jq- {								/* invite				name								*/
+	color: var(--header-primary);
+}
+#app-mount .guildDetail-3EJhW_ {							/* invite				details								*/
+	color: var(--channels-default);
+}
+
+#app-mount .invite-3uuHYQ {									/* invite				group invite						*/
+	background-color: rgba(var(--transparencycolor), .3);
+	border-color: rgba(var(--transparencycolor), .1);
+}
+#app-mount .header-1Fx4D1 {
+	color: rgb(var(--textdarker));
+}
+#app-mount .name-QjR4Jk,
+#app-mount .partyStatus-2-VcyG {
+	color: var(--header-primary);
+}
+#app-mount .moreUsers-3PdGZN {
+	background-color: rgba(var(--transparencycolor), .3);
+	color: var(--header-secondary);
+}
+#app-mount .partyMemberEmpty-GtlQ_s {
+	background-color: rgba(var(--transparencycolor), .3);
+}
+#app-mount .helpIcon-24pk1Z {
+	background-color: var(--header-primary);
+}
+
+
 /* ----		6.3.	TEXTAREA						---- */
 
 .form-3gdLxP {
@@ -1390,3 +1450,102 @@ body::after {
 }
 .splashImage-3x240k {										/* screen				image								*/
 	opacity: 0.7;
+}
+
+
+/* ~~~~		7.		PEOPLES							~~~~ */
+
+.addFriendInputWrapper-kkoSV9 {								/* peoples				add friend							*/
+	background-color: rgba(var(--transparencycolor), .1);
+	border-color: rgba(var(--transparencycolor), .3);
+}
+.addFriendInputWrapper-kkoSV9:hover:not(:focus-within) {
+	border-color: rgb(var(--transparencycolor));
+}
+.container-3tKtM_ {											/* peoples				explore option						*/
+	border: none;
+}
+.container-3tKtM_:hover {
+	background-color: var(--background-floating);
+}
+.peopleListItem-u6dGxF .actionButton-3-B2x-,				/* peoples				actionbutton						*/
+.peopleListItem-u6dGxF .actionButton-3-B2x {				/* peoples				actionbutton						*/
+	background-color: rgba(var(--transparencycolor), .1);
+}
+.peopleListItem-u6dGxF .actionButton-3-B2x-:hover,
+.peopleListItem-u6dGxF .actionButton-3-B2x:hover {
+	background-color: rgb(var(--accentcolor));
+}
+.peopleListItem-u6dGxF .actionButton-3-B2x-:hover svg,
+.peopleListItem-u6dGxF .actionButton-3-B2x:hover svg {
+	filter: drop-shadow(1px 1px var(--textshadow));
+}
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover,
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover {
+	background-color: rgba(var(--transparencycolor), .3);
+}
+.peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x-,
+.peopleListItem-u6dGxF:hover .actionButton-3-B2x-,
+.peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x,
+.peopleListItem-u6dGxF:hover .actionButton-3-B2x {
+	background-color: rgba(var(--transparencycolor), .3);
+}
+#app-mount .outer-2JOHae,									/* playing				card								*/
+#app-mount .wrapper-2RrXDg {								/* playing				card								*/
+	background-color: rgba(var(--transparencycolor), .2);
+	border: unset;
+}
+#app-mount .outer-2JOHae.active-1W_Gl9,
+#app-mount .outer-2JOHae.interactive-2zD88a:hover,
+#app-mount .outer-2JOHae.active-1W_Gl9,
+#app-mount .outer-2JOHae.interactive-2zD88a:hover {
+	background-color: rgba(var(--transparencycolor), .4);
+}
+#app-mount .inset-SbsSFp {									/* playing				card inner							*/
+	background-color: rgba(var(--transparencycolor), .2);
+}
+.emptyCard-KDifrB {											/* playing				empty card							*/
+	background-color: rgba(var(--transparencycolor), .2);
+}
+#app-mount .partyMemberOverflow-3G1oZz {
+	background: rgba(var(--transparencycolor), .5);
+}
+#app-mount .partyMemberBackground-35PUxI,
+#app-mount .partyMemberUnknown-3RMTbX {
+	background-color: rgba(var(--transparencycolor), .5);
+}
+#app-mount .partyMemberUnknownIcon-3HapjE {
+	color: var(--channels-default);
+}
+#app-mount .popout-3Zw0qN {									/* playing				popout								*/
+	background-color: transparent;
+	box-shadow: 0 0 0 1px rgba(var(--transparencycolor), .3), 0 8px 16px 0 rgba(var(--transparencycolor), .3);
+	overflow: hidden;
+}
+.popout-3Zw0qN::before,
+.popout-3Zw0qN::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.popout-3Zw0qN::before {
+	background: var(--popout) var(--popoutposition)/var(--popoutsize);
+	background-attachment: fixed;
+}
+.popout-3Zw0qN::after {
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.3));
+	backdrop-filter: blur(var(--popoutblur));
+}
+#app-mount .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+#app-mount .enabled-1t_Gxm:hover {
+	background-color: rgba(var(--transparencycolor), .2);
+}
