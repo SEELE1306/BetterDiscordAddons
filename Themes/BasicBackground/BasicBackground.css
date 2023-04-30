@@ -150,7 +150,9 @@ body,														/* body														*/
 #app-mount .container-2IKOsH,								/* chat					search								*/
 #app-mount .container-1um7CU,								/* chat					search inner						*/
 #app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
-#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
+#app-mount .wrapper-3HVHpV,
+#app-mount .panels-3wFtMD > *
+/* chat					messages loading					*/
 #app-mount .noChannel-Z1DQK7,								/* nochannel												*/
 #app-mount .members-3WRCEx,									/* members													*/
 #app-mount .members-3WRCEx > div,							/* members				content								*/
